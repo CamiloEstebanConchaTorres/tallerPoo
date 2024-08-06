@@ -1,8 +1,8 @@
-const {persona: persona1} = require('./persona')
-const {Estudiante: estudiante1} = require('./estudiante')
+const {persona} = require('./persona')
+const {Estudiante} = require('./estudiante')
 
-let obj = new persona1("Camilo")
-console.log(obj.saludar())
+let persona1 = new persona("camilo")
+console.log(persona1.saludar())
 
-let obj2 = new estudiante1("biologia")
-console.log(obj2.estudiar())
+let estudiante1 = new Estudiante("Camilo", 20, "Masculino", "Biologia")
+console.log(estudiante1.estudiar())
