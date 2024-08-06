@@ -33,3 +33,5 @@ class persona {
         return `Hola mi nombre es ${this.nombre}`
     }
 }
+
+module.exports = {persona}
