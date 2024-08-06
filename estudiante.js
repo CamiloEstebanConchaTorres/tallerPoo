@@ -9,3 +9,5 @@ class Estudiante extends persona{
         return `estoy estudiando la carrera ${this.carrera}`
     }
 }
+
+module.exports =  {Estudiante}
